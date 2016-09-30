@@ -7,10 +7,10 @@
         <relativePath />
     </parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>chucknorris</artifactId>
+    <artifactId>csvaicavalo</artifactId>
     <version>1.1-SNAPSHOT</version>
-    <name>ChuckNorris Plugin</name>
-    <description>Displays a picture of Chuck Norris (instead of Jenkins the butler) and a random Chuck Norris 'The Programmer' fact on each build page.</description>
+    <name>Vai Cavalo Plugin</name>
+    <description>Displays a picture of Willian Silva and a random Willian Silva Message on each build page.</description>
 
     <properties>
         <jenkins.version>1.434</jenkins.version>
@@ -18,15 +18,15 @@
         <jenkins-test-harness.version>${jenkins.version}</jenkins-test-harness.version>
     </properties>
 
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/ChuckNorris+Plugin</url>
+    <url>https://github.com/cs-pedro-azevedo/chucknorris-plugin</url>
     <packaging>hpi</packaging>
 
     <developers>
         <developer>
-            <id>batmat</id>
-            <name>Baptiste Mathus</name>
-            <email>batmat@batmat.net</email>
-            <timezone>Europe/Paris</timezone>
+            <id>cs-pedro-azevedo</id>
+            <name>Pedro Azevedo</name>
+            <email>pedro.azevedo@concretesolutions.com.br</email>
+            <timezone>Brazil</timezone>
         </developer>
     </developers>
     <licenses>
@@ -35,15 +35,6 @@
             <url>LICENSE.txt</url>
         </license>
     </licenses>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <version>1.7</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
     <repositories>
         <repository>
@@ -135,13 +126,13 @@
             </plugin>
         </plugins>
     </reporting>
-    
+
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/chucknorris-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/chucknorris-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/chucknorris-plugin</url>
-      <tag>HEAD</tag>
-  </scm>
+        <connection>scm:git:git://github.com/cs-pedro-azevedo/chucknorris-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:cs-pedro-azevedo/chucknorris-plugin.git</developerConnection>
+        <url>https://github.com/cs-pedro-azevedo/chucknorris-plugin</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <pluginRepositories>
         <pluginRepository>
