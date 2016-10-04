@@ -6,4 +6,4 @@
 bin/
 .java-version
 *.iml
-.DS_Store/
+.DS_Store
